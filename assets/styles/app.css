@@ -1,3 +1,17 @@
 body {
     background-color: lightgray;
 }
+
+.container .child {
+  display: grid;
+  grid-template-rows: 20vh;
+  justify-content: center;
+  align-content: center;
+}
+.container .child div {
+	font-size: 18px;
+}
+.container .child div span {
+	font-weight: 800;
+	font-family: cursive;
+}

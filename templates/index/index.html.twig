@@ -2,6 +2,10 @@
 
 {% block title %}Symfony with webpack{% endblock %}
 
+{% block stylesheets %}
+    {{ encore_entry_link_tags('style') }}
+{% endblock %}
+
 {% block body %}
 
 <div class="container">
@@ -12,6 +16,11 @@
 		<div>
 			Prénom : <span>Fabrice Clément</span>
 		</div>
+	</div>
+	<div class="other">
+		<p>
+			Je suis un développeur full stack.
+		</p>
 	</div>
 </div>
 {% endblock %}
